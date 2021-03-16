@@ -1,8 +1,8 @@
 title: Klaro! Documentation
 pages:
-  - src: common/index.html
-    title|t: Klaro! Documentation
-    navtitle|t: Klaro! Documentation
+  - src|f|exists?: "{target_language}/index.md"
+    title|t: Welcome!
+    navtitle|t: Welcome!
     name: ''
     hidden: true
   - src|f|exists?: "{target_language}/getting_started.md"
@@ -66,6 +66,6 @@ pages:
     - src|f|exists?: "{target_language}/js_api.md"
       title: Javascript API
       name: js-api
-    - src|f|exists?: "{target_language}/rest_api.md"
-      title: REST API
-      name: rest-api
+    #- src|f|exists?: "{target_language}/rest_api.md"
+    #  title: REST API
+    #  name: rest-api

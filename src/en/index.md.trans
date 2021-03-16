@@ -19,9 +19,69 @@
 10eaaf46cf8dae82:
   de: '    <div class="message-body">'
   en: '    <div class="message-body">'
+12e2bab70de1eeb7:
+  de: >-
+    Um loszulegen, empfehlen wir Ihnen, zuerst das Dokument [Erste
+    Schritte]({{'getting-started'|href}}) zu lesen, das Sie durch
+    die Einrichtung von Klaro führt. Dann können Sie einen Blick
+    auf die [kommentierte Beispielkonfiguration]({{'integration.annotated-config'|href}})
+    werfen, um zu lernen, wie Sie Klaro konfigurieren. Schließlich
+    können Sie das [Javascript]({{'api.yjs-api'|href}}) lesen,
+    um zu erfahren, wie Sie mit Klaro programmatisch interagieren
+    können.
+  en: >-
+    To get up and running we recommend to first read the <md-link
+    href="PGlnbm9yZSB2PSJlM3NuWjJWMGRHbHVaeTF6ZEdGeWRHVmtKM3hvY21WbWZYMD0iIC8-">Getting
+    Started</md-link> document, which will guide you through the
+    process of setting up Klaro. Then, you can have a look at
+    the <md-link href="e3snaW50ZWdyYXRpb24uYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3snYXBpLnlqcy1hcGknfGhyZWZ9fQ==">Javascript</md-link>
+    to learn how you can interact with Klaro programatically.
+189dddb0e5e3d07d:
+  de: '# Willkommen!'
+  en: <md-heading v="#">Welcome!</md-heading>
+3dfd7e2f89475523:
+  de: >-
+    Um loszulegen, empfehlen wir Ihnen, zuerst den Abschnitt über
+    die [ersten Schritte]({{'getting-started'|href}}) mit Klaro
+    zu lesen, der Sie durch den Prozess der Einrichtung von Klaro
+    führt. Dann können Sie einen Blick auf die [kommentierte Beispielkonfiguration]({{'integration.annotated-config'|href}})
+    werfen, um zu lernen, wie Sie Klaro konfigurieren. Schließlich
+    können Sie das [Javascript]({{'api.js-api'|href}}) lesen,
+    um zu erfahren, wie Sie mit Klaro programmatisch interagieren
+    können.
+  en: >-
+    To get up and running we recommend to first read the section
+    on how to <md-link href="PGlnbm9yZSB2PSJlM3NuWjJWMGRHbHVaeTF6ZEdGeWRHVmtKM3hvY21WbWZYMD0iIC8-">get
+    started</md-link> with Klaro, which will guide you through
+    the process of setting up Klaro. Then, you can have a look
+    at the <md-link href="e3snaW50ZWdyYXRpb24uYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3snYXBpLmpzLWFwaSd8aHJlZn19">Javascript</md-link>
+    to learn how you can interact with Klaro programatically.
 40d4637933fc2383:
   de: <div class="message is-info">
   en: <div class="message is-info">
+5be307498fdab37c:
+  de: >-
+    Um loszulegen, empfehlen wir Ihnen, zuerst das Dokument [Erste
+    Schritte]({{'getting-started'|href}}) zu lesen, das Sie durch
+    die Einrichtung von Klaro führt. Dann können Sie einen Blick
+    auf die [kommentierte Beispielkonfiguration]({{'integration.annotated-config'|href}})
+    werfen, um zu lernen, wie Sie Klaro konfigurieren. Schließlich
+    können Sie das [Javascript]({{'api.js-api'|href}}) lesen,
+    um zu erfahren, wie Sie mit Klaro programmatisch interagieren
+    können.
+  en: >-
+    To get up and running we recommend to first read the <md-link
+    href="PGlnbm9yZSB2PSJlM3NuWjJWMGRHbHVaeTF6ZEdGeWRHVmtKM3hvY21WbWZYMD0iIC8-">Getting
+    Started</md-link> document, which will guide you through the
+    process of setting up Klaro. Then, you can have a look at
+    the <md-link href="e3snaW50ZWdyYXRpb24uYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3snYXBpLmpzLWFwaSd8aHJlZn19">Javascript</md-link>
+    to learn how you can interact with Klaro programatically.
 64951a329191c914:
   de: >2-
             Diese Dokumentation beschreibt hauptsächlich die Open-Source-Version
@@ -34,6 +94,19 @@
     simply <a href="https://kiprotect.com/klaro/prices">sign up
     for a plan</a> and follow the instructions given by the installation
     wizard.
+6882f7d6a64d1cb2:
+  de: >2-
+            Diese Dokumentation beschreibt hauptsächlich die Open-Source-Version
+    von Klaro. Um mit der gehosteten Version zu beginnen, <a href="{%
+    if lang == 'de' %}https://heyklaro.com/de/preise{%else%}https://heyklaro.com/prices{%endif%}">melden</a>
+    Sie sich einfach <a href="{% if lang == 'de' %}https://heyklaro.com/de/preise{%else%}https://heyklaro.com/prices{%endif%}">für
+    einen Plan an</a> und folgen Sie den Anweisungen des Installationsassistenten.
+  en: >2-
+            This documentation mostly describes the open-source
+    version of Klaro. To get started with the hosted version,
+    simply <a href="{% if lang == 'de' %}https://heyklaro.com/de/preise{%else%}https://heyklaro.com/prices{%endif%}">sign
+    up for a plan</a> and follow the instructions given by the
+    installation wizard.
 76cf56124a258327:
   de: >-
     Wir führen auch ein detailliertes Protokoll über alle unsere
@@ -50,6 +123,24 @@
 7dc8d37d8f9fb3c6:
   de: '    </div>'
   en: '    </div>'
+900eec59ece20beb:
+  de: >-
+    Um loszulegen, empfehlen wir Ihnen, zuerst das Dokument [Erste
+    Schritte]({{'getting-started'|href}}) zu lesen, das Sie durch
+    die Einrichtung von Klaro führt. Dann können Sie einen Blick
+    auf die [kommentierte Beispielkonfiguration]({{'integration.annotated-config'|href}})
+    werfen, um zu lernen, wie Sie Klaro konfigurieren. Schließlich
+    können Sie das [Javascript]({{'js-api'|href}}) lesen, um zu
+    erfahren, wie Sie mit Klaro programmatisch interagieren können.
+  en: >-
+    To get up and running we recommend to first read the <md-link
+    href="PGlnbm9yZSB2PSJlM3NuWjJWMGRHbHVaeTF6ZEdGeWRHVmtKM3hvY21WbWZYMD0iIC8-">Getting
+    Started</md-link> document, which will guide you through the
+    process of setting up Klaro. Then, you can have a look at
+    the <md-link href="e3snaW50ZWdyYXRpb24uYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3snanMtYXBpJ3xocmVmfX0=">Javascript</md-link>
+    to learn how you can interact with Klaro programatically.
 91817b0c16fbf160:
   de: >-
     Um loszulegen, empfehlen wir Ihnen, zuerst das Dokument [Erste
@@ -106,6 +197,19 @@ a1b08a6b77e087d3:
 aac32651b10f567c:
   de: </div>
   en: </div>
+ce213d91ff81348c:
+  de: >2-
+            Diese Dokumentation beschreibt hauptsächlich die Open-Source-Version
+    von Klaro. Um mit der gehosteten Version zu beginnen, <a href="{%
+    if lang == 'de' %}https://heyklaro.com/de/preise{%else%}https://heyklaro.com/pricing{%endif%}">melden</a>
+    Sie sich einfach <a href="{% if lang == 'de' %}https://heyklaro.com/de/preise{%else%}https://heyklaro.com/pricing{%endif%}">für
+    einen Plan an</a> und folgen Sie den Anweisungen des Installationsassistenten.
+  en: >2-
+            This documentation mostly describes the open-source
+    version of Klaro. To get started with the hosted version,
+    simply <a href="{% if lang == 'de' %}https://heyklaro.com/de/preise{%else%}https://heyklaro.com/pricing{%endif%}">sign
+    up for a plan</a> and follow the instructions given by the
+    installation wizard.
 e3b0c44298fc1c14:
   de: ''
   en: ''

@@ -7,7 +7,7 @@
   {%if author %}<meta name="author" content="{{author}}">{% endif %}
   {%if keywords %}<meta name="keywords" content="{{keywords|join(',')}}">{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{'hp.site-title'|translate}}{% if title is defined %} | {{title}}{%endif%}</title>
+  <title>{% if title is defined %}{{title}} | {%endif%}{{'hp.site-title'|translate}}</title>
   <link rel="stylesheet" type="text/css" href="{{'css/main.css'|file}}">
   {% block klaro %}
   {% if env == 'development' %}

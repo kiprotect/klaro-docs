@@ -3,9 +3,9 @@
 pages:
 - hidden: true
   name: ''
-  navtitle: Klaro! Documentation
-  src: common/index.html
-  title: Klaro! Documentation
+  navtitle: Welcome!
+  src: en/index.md
+  title: Welcome!
 - name: getting-started
   slug: getting-started
   src: en/getting_started.md
@@ -62,9 +62,6 @@ pages:
   - name: js-api
     src: en/js_api.md
     title: Javascript API
-  - name: rest-api
-    src: en/rest_api.md
-    title: REST API
   name: api
   slug: api
   title: API
