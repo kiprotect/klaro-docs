@@ -22,8 +22,7 @@ babel:
 	node_modules/.bin/babel src/**/*.es6 --out-dir "."
 
 translate:
-	@if [ ! -n "$(TOKEN)" ]; then echo "Please set the translation token as the TOKEN variable." && exit 1; fi;
-	venv/bin/beam i18n translate $(TOKEN) src $(TA)
+	@if [ -n "$(TOKEN)" ]; then venv/bin/beam i18n translate $(TOKEN) src $(TA); fi;
 
 translate-config:
 	@if [ ! -n "$(TOKEN)" ]; then echo "Please set the translation token as the TOKEN variable." && exit 1; fi;
