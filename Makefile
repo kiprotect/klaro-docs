@@ -31,6 +31,14 @@ translate-config:
 downloads:
 	curl $(RELEASE_HOST)klaro/master/releases.yml > src/en/releases.yml
 
+optimize: optimize-images optimize-html
+
+optimize-images:
+	find src -name "*.png" -exec optipng {} \;
+
+optimize-html:
+	find build -name "*.html" -exec tidy -m {} \;
+
 site: translate sass babel downloads
 	venv/bin/beam -vv up --site $(SITE)
 
