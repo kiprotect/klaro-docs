@@ -1,7 +1,7 @@
 $include:
   - site.yml
   - site-i18n.yml
-url: https://kiprotect.com
+url: https://heyklaro.com
 # we generate links without extensions as nginx rewrites those URLs automatically
 hide-href-extensions: ['/index.html', 'index.html', '.html']
 context:
