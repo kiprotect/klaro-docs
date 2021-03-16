@@ -1,0 +1,133 @@
+10eaaf46cf8dae82:
+  de: '    <div class="message-body">'
+  en: '    <div class="message-body">'
+1290dc2d107b27fd:
+  de: >2-
+            Wenn Sie die gehostete Version von Klaro verwenden,
+    kann die GTM-Unterstützung automatisch aktiviert werden, indem
+    Sie den Dienst "Google Tag Manager" über die Registerkarte
+    "Konfigurationen" oder den Einrichtungsassistenten zu Ihrer
+    Konfiguration hinzufügen. Sie müssen jedoch weiterhin den
+    erforderlichen Ereignisauslöser in der GTM-Web-Benutzeroberfläche
+    erstellen.
+  en: >2-
+            If you're using the hosted version of Klaro, GTM support
+    can be automatically enabled by adding the "Google Tag Manager"
+    service to your configuration via the "Configs" tab or setup
+    wizard. You will still need to create the required event trigger
+    in the GTM web UI, however.
+3d2844c642455a3e:
+  de: '## Beispiel'
+  en: <md-heading v="##">Example</md-heading>
+40d4637933fc2383:
+  de: <div class="message is-info">
+  en: <div class="message is-info">
+44a6b9e9ca82e4d8:
+  de: >-
+    Diese Anleitung erklärt, wie Sie Klaro in den Google Tag Manager
+    (GTM) integrieren können, um die Zustimmung für Dienste zu
+    verwalten, die innerhalb des GTM verwaltet werden. Die Einverständniserklärung,
+    die Sie unten sehen, steuert eine Beispiel-GTM-Installation,
+    die einen Google Analytics-Tag verwaltet. Klaro kann GTM-Tags
+    vollständig verwalten und unterstützt auch den neuen "Zustimmungsmodus"
+    von Google. Beispielsweise steuert die unten stehende Einverständniserklärung
+    einen GTM-Tag, der auf dieser Website installiert ist und
+    beim Laden einen Google Analytics-Tag lädt, aber nur, wenn
+    Sie die Verwendung von Google Analytics über Klaro akzeptiert
+    haben.
+  en: >-
+    This tutorial explains how you can integrate Klaro with Google
+    Tag Manager (GTM) to manage consent for services that are
+    manged within GTM. The consent notice you see below controls
+    an example GTM installation that manages a Google Analytics
+    Tag. Klaro can fully manage GTM tags and also support Google's
+    new "Consent Mode". As an example, the consent notice below
+    controls a GTM tag that's installed on this site, which will
+    load a Google Analytics tag when loaded, but only if you accepted
+    the use of Google Analytics via Klaro.
+547b479a8991db49:
+  de: >-
+    Nehmen wir an, wir möchten GTM verwenden, um ein Google Analytics-Tag
+    in unsere Website einzubetten. Dazu binden wir zunächst den
+    GTM in unsere Website ein und modifizieren ihn so, dass er
+    von Klaro verwaltet werden kann.
+  en: >-
+    Let's assume we want to use GTM to embed a Google Analytics
+    tag in our website. To do that, we first include the GTM on
+    our website, modifying it so that it can be managed by Klaro.
+792ddea0ad033f6b:
+  de: >-
+    Hier ist die Beispiel-Klaro-Konfiguration, die wir auf dieser
+    Seite verwendet haben. Wir definieren sowohl einen "Google
+    Tag Manager"-Dienst als auch einen "Google Analytics"-Dienst.
+    Die verschiedenen Event-Handler (`onInit`, `onAccept`, `onDecline`)
+    sorgen dafür, dass GTM über die vom Benutzer getroffenen Zustimmungsentscheidungen
+    informiert wird, was wiederum GTM in die Lage versetzt, die
+    entsprechenden Tags zu laden.
+  en: >-
+    Here's the example Klaro config that we've used on this page.
+    We define a "Google Tag Manager" service as well as a "Google
+    Analytics" service. The different event handlers (<md-code>onInit</md-code>,
+    <md-code>onAccept</md-code>, <md-code>onDecline</md-code>)
+    take care of telling GTM about the consent choices the user
+    has made, which in turn enables GTM to load the corresponding
+    tags.
+7dc8d37d8f9fb3c6:
+  de: '    </div>'
+  en: '    </div>'
+865a66f671515746:
+  de: >-
+    [^1:] [https://support.google.com/tagmanager/answer/7679219?hl=](https://support.google.com/tagmanager/answer/7679219?hl={{lang}})
+    [{{lang}}](https://support.google.com/tagmanager/answer/7679219?hl={{lang}})
+  en: >-
+    <md-link>^1</md-link>: <md-link href="aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdGFnbWFuYWdlci9hbnN3ZXIvNzY3OTIxOT9obD17e2xhbmd9fQ==">https://support.google.com/tagmanager/answer/7679219?hl=<ignore
+    v="e3tsYW5nfX0=" /></md-link>
+9ff5323c5fbba651:
+  de: '# Google Tag Manager (GTM)'
+  en: <md-heading v="#">Google Tag Manager (GTM)</md-heading>
+aac32651b10f567c:
+  de: </div>
+  en: </div>
+c509f679998d9dc7:
+  de: <div class="message is-warning">
+  en: <div class="message is-warning">
+dc6cd47eb7cc4414:
+  de: >2-
+            Diese Funktionalität befindet sich noch in aktiver
+    Entwicklung und wird sich wahrscheinlich weiterentwickeln.
+  en: >2-
+            This functionality is still under active development
+    and will likely evolve.
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+e523556bfd0db541:
+  de: '## Beispiel Config'
+  en: <md-heading v="##">Example Config</md-heading>
+e8d96c67d4887fc4:
+  de: >-
+    Dann erstellen wir ein Google Analytics-Tag in der GTM-Web-Benutzeroberfläche.
+    Als Trigger erstellen wir einen benutzerdefinierten Ereignis-Trigger
+    [^1] mit dem Namen `klaro-google-analytics-accepted`. Dadurch
+    wird sichergestellt, dass GTM Google Analytics nur dann lädt,
+    wenn der Benutzer über Klaro seine Zustimmung dazu erteilt
+    hat. Und das ist alles! Klaro wird nun GTM verwalten und sicherstellen,
+    dass GTM nur Dienste lädt, für die der Benutzer seine Zustimmung
+    über Klaro erteilt hat. **Wichtig:** Um einen weiteren Dienst
+    über GTM hinzuzufügen, fügen Sie ihn zuerst Ihrer Klaro-Konfiguration
+    hinzu und definieren Sie dann einfach einen benutzerdefinierten
+    Ereignisauslöser des Formulars `klaro-[service-name] -accepted`,
+    wo `[service-name]` ist der Name des Dienstes in der Klaro-Konfiguration.
+  en: >-
+    Then, we create a Google Analytics tag in the GTM web UI.
+    As a trigger, we create a custom event trigger <md-link>^1</md-link>
+    with name <md-code>klaro-google-analytics-accepted</md-code>.
+    This ensures that GTM will only load Google Analytics if the
+    user has granted consent for it via Klaro. And that's it!
+    Klaro will now manage GTM and ensure that it only loads services
+    for which the user has given consent via Klaro. <md-strong>Important:</md-strong>
+    To add another service via GTM, first add it to your Klaro
+    config and then simply define a custom event trigger of the
+    form <md-code>klaro-<md-link>service-name</md-link>-accepted</md-code>,
+    where <md-code><md-link>service-name</md-link></md-code> is
+    the name of the service in the Klaro config.

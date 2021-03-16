@@ -1,0 +1,156 @@
+0906735810ce49da:
+  de: >-
+    Bevor Sie Klaro! auf Ihrer Website aktivieren, sollten Sie
+    es vielleicht testen. Hier erfahren Sie, wie Sie
+  en: >-
+    Before enabling Klaro! on your website you might want to test
+    it. Here's how to
+17949362d4b387b8:
+  de: >-
+    auf `https://example.com#klaro-testing` und laden Sie die
+    Seite neu.
+  en: >-
+    to <md-code>https://example.com#klaro-testing</md-code> and
+    reload the page.
+2efd4e2ef087e9fb:
+  de: >-
+    * Wenn Sie Klaro mit einer lokalen Konfigurationsdatei verwenden,
+    fügen Sie einfach `testing: true` zur Konfiguration hinzu.
+    Klaro (&gt;=0.7.2)
+  en: >-
+    <md-list v="*">If you use Klaro with a local configuration
+    file, simply add <md-code>testing: true</md-code> to the config.
+    Klaro (>=0.7.2)</md-list>
+4643e44d334974fe:
+  de: '# Wie man Klaro testen kann'
+  en: <md-heading v="#">How To Test Klaro</md-heading>
+61c67755c600fb2e:
+  de: >-
+    Dadurch wird sichergestellt, dass Klaro nicht automatisch
+    die Einverständniserklärung zeigt oder
+  en: >-
+    This will ensure that Klaro doesn't automatically show the
+    consent notice or
+6410ea2de35c7d61:
+  de: '  zur Konfiguration. Klaro (&gt;=0.7.2)'
+  en: '  to the config. Klaro (>=0.7.2)'
+82dd4f41a84d4e9f:
+  de: >-
+    Neuladen der Seite (erfordert Klaro &gt;=0.7.2). Dies veranlasst
+    Klaro, Folgendes anzuzeigen
+  en: >-
+    reloading the page (requires Klaro >=0.7.2). This will cause
+    Klaro to show
+8c1285d085a9c687:
+  de: >-
+    die Cosent-Meldung im Testmodus. Zum Beispiel, um eine Klaro-Installation
+    zu testen
+  en: >-
+    the cosent notice in test mode. For example, to test a Klaro
+    installation
+917fe821398ea7d8:
+  de: >-
+    auf `https://example.com` ändern wir einfach die URL in der
+    Browser-Adressleiste
+  en: >-
+    on <md-code>https://example.com</md-code>, we simply change
+    the URL in the browser address bar
+9dfe57d6249be995:
+  de: >-
+    Dadurch wird sichergestellt, dass Klaro nicht automatisch
+    die Einverständniserklärung oder den Modal zeigt. Sie können
+    Klaro aktivieren, indem Sie `#klaro-testing` an die URL anhängen
+    und die Seite neu laden (erfordert Klaro &gt;=0.7.2). Dies
+    veranlasst Klaro, die Einverständniserklärung im Testmodus
+    anzuzeigen. Um z. B. eine Klaro-Installation auf `https://example.com`
+    zu testen, ändern wir einfach die URL in der Adressleiste
+    des Browsers in `https://example.com#klaro-testing` und laden
+    die Seite neu.
+  en: >-
+    This will ensure that Klaro doesn't automatically show the
+    consent notice or modal. You can enable Klaro by appending
+    <md-code>#klaro-testing</md-code> to the URL and reloading
+    the page (requires Klaro >=0.7.2). This will cause Klaro to
+    show the cosent notice in test mode. For example, to test
+    a Klaro installation on <md-code>https://example.com</md-code>,
+    we simply change the URL in the browser address bar to <md-code>https://example.com#klaro-testing</md-code>
+    and reload the page.
+a5c71b94f3b5ebad:
+  de: >-
+    * Wenn Sie Klaro mit einer lokalen Konfigurationsdatei verwenden,
+    fügen Sie einfach `testing: true`
+  en: >-
+    <md-list v="*">If you use Klaro with a local configuration
+    file, simply add <md-code>testing: true</md-code></md-list>
+b0546a9ac1113010:
+  de: >-
+    * Wenn Sie Klaro mit einer API-gestützten Konfiguration verwenden,
+    deaktivieren Sie Ihre Konfiguration einfach über die Webschnittstelle.
+  en: >-
+    <md-list v="*">If you use Klaro with an API-backed configuration,
+    simply deactivate your configuration via the web interface.</md-list>
+b532d23145c9a3f5:
+  de: >-
+    Bevor Sie Klaro! auf Ihrer Website aktivieren, sollten Sie
+    es vielleicht testen. Hier erfahren Sie, wie Sie das tun können:
+  en: >-
+    Before enabling Klaro! on your website you might want to test
+    it. Here's how to do that:
+b9fa4714abec3348:
+  de: '  Konfiguration über die Web-Schnittstelle.'
+  en: '  configuration via the web interface.'
+beefb7f9359bfaa3:
+  de: 'tun Sie das:'
+  en: 'do that:'
+ccf955e371961ec0:
+  de: '# Wie Sie die Klaro-Integration testen können'
+  en: >-
+    <md-heading v="#">How To Test The Klaro Integration</md-heading>
+d92222fdf4225e5e:
+  de: >-
+    Dadurch wird sichergestellt, dass Klaro nicht automatisch
+    die Einverständniserklärung oder den modalen Dialog anzeigt.
+    Sie können diese aktivieren, indem Sie `#klaro-testing` an
+    die URL anhängen und die Seite neu laden (erfordert Klaro
+    ≥0.7.2). Dies veranlasst Klaro, die Einverständniserklärung
+    im Testmodus anzuzeigen. Um zum Beispiel eine Klaro-Installation
+    auf `https://example.com` zu testen, ändern wir einfach die
+    URL in der Browser-Adressleiste in `https://example.com#klaro-testing`
+    und laden die Seite neu.
+  en: >-
+    This will ensure that Klaro doesn't automatically show the
+    consent notice or modal dialog. You can enable these by appending
+    <md-code>#klaro-testing</md-code> to the URL and reloading
+    the page (requires Klaro &ge;0.7.2). This will cause Klaro
+    to show the cosent notice in test mode. For example, to test
+    a Klaro installation on <md-code>https://example.com</md-code>,
+    we simply change the URL in the browser address bar to <md-code>https://example.com#klaro-testing</md-code>
+    and reload the page.
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+eb60c3b2b1b0a917:
+  de: '# Prüfung Klaro'
+  en: <md-heading v="#">Testing Klaro</md-heading>
+ef1740fb04af7245:
+  de: >-
+    * Wenn Sie Klaro mit einer API-gestützten Konfiguration verwenden,
+    deaktivieren Sie einfach Ihre
+  en: >-
+    <md-list v="*">If you use Klaro with an API-backed configuration,
+    simply deactivate your</md-list>
+f674e8ad475d9082:
+  de: "* Wenn Sie Klaro mit einer lokalen Konfigurationsdatei\
+    \ verwenden, fügen Sie einfach `testing: true` zur Konfiguration\
+    \ hinzu. "
+  en: >-
+    <md-list v="*">If you use Klaro with a local configuration
+    file, simply add <md-code>testing: true</md-code> to the config.
+    </md-list>
+fe506fdfecad27ae:
+  de: >-
+    modal. Sie können Klaro aktivieren, indem Sie `#klaro-testing`
+    an die URL anhängen und
+  en: >-
+    modal. You can enable Klaro by appending <md-code>#klaro-testing</md-code>
+    to the URL and

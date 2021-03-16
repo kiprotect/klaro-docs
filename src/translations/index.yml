@@ -1,0 +1,4 @@
+$include:
+- annotated-config.yml
+- main.yml
+- templates.yml

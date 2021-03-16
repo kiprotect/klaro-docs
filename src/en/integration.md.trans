@@ -1,0 +1,147 @@
+0d3433e7e1d6b360:
+  de: '        <script defer src=".../klaro.js"></script>'
+  en: '        <script defer src=".../klaro.js"></script>'
+13fac0bb37d053b6:
+  de: '## Aufgeschobenes Laden'
+  en: <md-heading v="##">Deferred Loading</md-heading>
+2742af8af3bc346e:
+  de: '    {%endfilter%}'
+  en: '    <ignore v="eyVlbmRmaWx0ZXIlfQ==" />'
+2b193f263b6b9eeb:
+  de: >-
+    Dies veranlasst den Browser, das Parsen der verbleibenden
+    Seite anzuhalten, bis das Skript geladen und ausgeführt wurde.
+    Im Allgemeinen raten wir davon ab, Klaro auf diese Weise einzubetten,
+    da dies eine Ladeverzögerung von etwa 50-100 ms verursacht.
+    Wenn Sie jedoch Klaro verwenden möchten, um Dienste von Drittanbietern
+    zu verwalten, ohne deren Code auf Ihrer Website zu ändern
+    (was wir ebenfalls nicht empfehlen, was aber notwendig sein
+    kann), sollten Sie Klaro synchron laden, um sicherzustellen,
+    dass es diese Skripte ordnungsgemäß abfangen kann (falls dies
+    in der Browser-Umgebung möglich ist).
+  en: >-
+    This will cause the browser to pause the parsing of the remaining
+    page until the script has been loaded and executed. In general,
+    we do not recommend embedding Klaro like this as it will cause
+    a loading delay of around 50-100 ms. However, if you want
+    to use Klaro to manage third-party services without modifying
+    their code on your site (which we do not recommend either
+    but which can be necessary) you should load Klaro synchronously
+    to ensure it can properly intercept these scripts (if that's
+    possible given the browser environment).
+2f8e461d0a478de5:
+  de: >-
+    Dies veranlasst den Browser, mit dem Laden der verbleibenden
+    Seite fortzufahren, während er im Hintergrund das Klaro-Skript
+    abruft. Er führt das Skript dann aus, sobald es geladen ist
+    (was jederzeit während oder nach dem Parsen der verbleibenden
+    Seite geschehen kann). Wenn Sie diese Art der Integration
+    verwenden, müssen Sie sicherstellen, dass alle Skripte, die
+    vom Klaro-Skript abhängen, erst nach dem Laden des Skripts
+    ausgeführt werden, z.B. durch Verwendung des Ereignishandlers
+    `onload` auf dem Skript. Das asynchrone Laden kann vorteilhaft
+    sein, da dadurch die Verzögerung bei der Anzeige der Einverständniserklärung
+    für den Benutzer verringert werden kann, obwohl auch das verzögerte
+    Laden des Klaro-Skripts normalerweise nur eine kleine, fast
+    nicht wahrnehmbare Verzögerung verursacht.
+  en: >-
+    This will cause the browser to continue loading the remaining
+    page while fetching the Klaro script in the background. It
+    will then execute the script as soon as it is loaded (which
+    can happen at any time during or after the parsing of the
+    remaining page). If you use this kind of integration you need
+    to ensure that all scripts which depend on the Klaro script
+    only execute after the script has been loaded, e.g. by using
+    the <md-code>onload</md-code> event handler on the script.
+    Asynchronous loading can be advantageous as it can reduce
+    the delay in displaying the consent notice to the user, although
+    deferred loading of the Klaro script normally also only incurs
+    a small, nearly impercetible delay.
+3b5f73a2a2cd33a0:
+  de: '# Klaro integrieren'
+  en: <md-heading v="#">Integrating Klaro</md-heading>
+40d0bbac81c35313:
+  de: >-
+    Es gibt verschiedene Möglichkeiten, Klaro in Ihre Website
+    zu integrieren, die wir in den folgenden Abschnitten erläutern.
+  en: >-
+    There are several ways to integrate Klaro with your website,
+    which we explain in the following paragraphs.
+6d8d006b642a1aa4:
+  de: '## Synchrones Laden'
+  en: <md-heading v="##">Synchronous Loading</md-heading>
+98e004d2347a9920:
+  de: '    {%filter highlight(strip=True, language=''html'')%}'
+  en: >2-
+        <ignore v="eyVmaWx0ZXIgaGlnaGxpZ2h0KHN0cmlwPVRydWUsIGxhbmd1YWdlPSdodG1sJyklfQ=="
+    />
+a64c8039ad22d521:
+  de: '## Asynchrones Laden'
+  en: <md-heading v="##">Asynchronous Loading</md-heading>
+a9582a5b7b440a65:
+  de: "Dadurch wird der Browser veranlasst, das Klaro-Skript im\
+    \ Hintergrund herunterzuladen und erst dann auszuführen, wenn\
+    \ die verbleibende Seite geparst und geladen wurde. Dieser\
+    \ Lademodus ist die bevorzugte Methode zur Integration von\
+    \ Klaro, da er keine Verzögerungen auf Ihrer Seite verursacht,\
+    \ unabhängig davon, wie lange das Skript zum Laden benötigt.\
+    \ Außerdem werden alle verzögerten Skripte in der ursprünglichen\
+    \ Reihenfolge ausgeführt, in der sie im Quellcode Ihrer Seite\
+    \ erscheinen (im Gegensatz z.B. zu asynchronen Skripten, die\
+    \ in beliebiger Reihenfolge ausgeführt werden können). Dadurch\
+    \ ist es möglich, mehrere Skripte wie Ihre Klaro-Konfigurationsdatei\
+    \ und Ihr Hauptskript zeitversetzt zu laden und trotzdem sicher\
+    \ zu sein, dass sie in der richtigen Reihenfolge ausgeführt\
+    \ werden. "
+  en: "This will cause the browser to download the Klaro script\
+    \ in the background and only execute it after the remaining\
+    \ page has been parsed and loaded. This loading mode is the\
+    \ preferred way to integrate Klaro as it won't cause any delays\
+    \ on your page, regardless of how long it takes the script\
+    \ to load. Furthermore, all deferred scripts are executed\
+    \ in the original order in which they appear in the source\
+    \ code of your page (contrary to e.g. asynchronous scripts,\
+    \ which can be executed in arbitrary order). This makes it\
+    \ possible to load multiples scripts like your Klaro config\
+    \ file and main script in a deferred way and still be sure\
+    \ that they will be executed in the right order. "
+aac32651b10f567c:
+  de: </div>
+  en: </div>
+ac015b2b091c0cfc:
+  de: '# Klaro in Ihre Website integrieren'
+  en: >-
+    <md-heading v="#">Integrating Klaro With Your Website</md-heading>
+ae725e839557d5a2:
+  de: >-
+    Um Klaro zeitversetzt zu laden, fügen Sie einen Skript-Tag
+    des folgenden Formulars in Ihre Website ein:
+  en: >-
+    To load Klaro in a deferred way, you add a script tag of the
+    following form to your website:
+bd3e02e593f81d68:
+  de: >-
+    Um Klaro synchron zu laden, fügen Sie einen Skript-Tag des
+    folgenden Formulars zu Ihrer Website hinzu:
+  en: >-
+    To load Klaro synchronously, you add a script tag of the following
+    form to your website:
+ca72395a9cb13085:
+  de: >-
+    Um Klaro asynchron zu laden, fügen Sie einen Skript-Tag des
+    folgenden Formulars zu Ihrer Website hinzu:
+  en: >-
+    To load Klaro asynchronously, you add a script tag of the
+    following form to your website:
+cc5de1c13f487c82:
+  de: '        <script async src=".../klaro.js"></script>'
+  en: '        <script async src=".../klaro.js"></script>'
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+f28e46d301e1130e:
+  de: '        <script src=".../klaro.js"></script>'
+  en: '        <script src=".../klaro.js"></script>'
+f5280ef03c25ba4e:
+  de: <div class="highlight">
+  en: <div class="highlight">

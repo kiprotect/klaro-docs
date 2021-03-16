@@ -1,0 +1,38 @@
+10eaaf46cf8dae82:
+  de: '    <div class="message-body">'
+  en: '    <div class="message-body">'
+7dc8d37d8f9fb3c6:
+  de: '    </div>'
+  en: '    </div>'
+808f8a2142f95694:
+  de: >2-
+            Dieser Abschnitt befindet sich im Aufbau, bitte schauen
+    Sie in ein paar Tagen wieder vorbei!
+  en: >2-
+            This section is under construction, please check back
+    in a few days!
+85d0d6f40b40eab2:
+  de: "Klaro bietet eine REST-API, die zus\xE4tzliche serverseitige\
+    \ Funktionen f\xFCr die Verwaltung und Speicherung von Zustimmungsinformationen,\
+    \ die Verfolgung von Akzeptanzraten, das Speichern und Abrufen\
+    \ von Konfiguration und Code und die kontinuierliche \xDC\
+    berpr\xFCfung Ihrer Website auf Datenschutz- und Sicherheitsrisiken\
+    \ bietet."
+  en: >-
+    Klaro offers a REST API that provides additional server-side
+    functionality for managing and storing consent information,
+    tracking acceptance rates, storing and fetching configuration
+    and code and continuously auditing your website for privacy
+    and security risks.
+aac32651b10f567c:
+  de: </div>
+  en: </div>
+aed7f000635b6110:
+  de: '# REST-API'
+  en: <md-heading v="#">REST API</md-heading>
+c509f679998d9dc7:
+  de: <div class="message is-warning">
+  en: <div class="message is-warning">
+e3b0c44298fc1c14:
+  de: ''
+  en: ''

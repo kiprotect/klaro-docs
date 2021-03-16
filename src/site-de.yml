@@ -1,0 +1,72 @@
+# Warning, this is an auto-generated file, do not modify!
+# Modify this file instead: site-all.yml
+pages:
+- hidden: true
+  name: ''
+  navtitle: Klaro! Dokumentation
+  src: common/index.html
+  title: Klaro! Dokumentation
+- name: getting-started
+  slug: erste-schritte
+  src: de/getting_started.md
+  title: Erste Schritte
+- children:
+  - name: contextual_consent
+    src: de/tutorials/contextual_consent.md
+    template: markdown.html
+    title: Kontextuelle Zustimmung
+  - name: google_tag_manager
+    src: de/tutorials/google_tag_manager.md
+    template: markdown.html
+    title: Google Tag Manager
+  name: tutorials
+  slug: anleitungen
+  title: Anleitungen
+  type: cateogry
+- extension: js
+  hidden: true
+  name: annotated-config-file
+  slug: kommentierte-config-datei
+  src: common/annotated_config.js
+  title: Kommentierte Config-Datei
+  type: html
+- children:
+  - name: ''
+    slug: uebersicht
+    src: de/integration.md
+    template: markdown.html
+    title: Übersicht
+  - name: testing
+    slug: pruefung
+    src: de/testing.md
+    template: markdown.html
+    title: Prüfung
+  - name: annotated-config
+    slug: kommentierte-konfiguration
+    src: de/annotated_config.md
+    template: markdown_wide.html
+    title: Kommentierte Konfiguration
+  name: integration
+  slug: integration
+  title: Integration
+  type: category
+- name: releases
+  releases:
+    $as-list: true
+    $data: true
+    $include: en/releases.yml
+  slug: veroeffentlichungen
+  src: de/releases.md
+  title: Veröffentlichungen
+- children:
+  - name: js-api
+    src: de/js_api.md
+    title: Javascript API
+  - name: rest-api
+    src: de/rest_api.md
+    title: REST API
+  name: api
+  slug: api
+  title: API
+  type: category
+title: Klaro! Documentation

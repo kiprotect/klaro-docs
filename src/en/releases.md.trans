@@ -1,0 +1,64 @@
+240eea2c2dc1bddd:
+  de: "# Klaro Ver\xF6ffentlichungen"
+  en: <md-heading v="#">Klaro Releases</md-heading>
+30f4d770d10151a2:
+  de: '{% if lang != ''en'' %}'
+  en: <ignore v="eyUgaWYgbGFuZyAhPSAnZW4nICV9" />
+48047bb0edc336a1:
+  de: "#### \xC4nderungen"
+  en: <md-heading v="####">Changes</md-heading>
+599e0a6b73e9960c:
+  de: '{% if lang not in (''en'', ''de'') %}'
+  en: <ignore v="eyUgaWYgbGFuZyBub3QgaW4gKCdlbicsICdkZScpICV9"
+    />
+7816581157df374e:
+  de: "**Bitte beachten Sie** : Die Versionszusammenfassung ist\
+    \ derzeit nur auf Englisch und Deutsch verf\xFCgbar. Wir entschuldigen\
+    \ uns f\xFCr etwaige Unannehmlichkeiten. Wenn Sie Hilfe beim\
+    \ Verst\xE4ndnis einer bestimmten Version ben\xF6tigen, [kontaktieren\
+    \ Sie uns](mailto:klaro@kiprotect.com) bitte."
+  en: >-
+    <md-strong>Please note</md-strong>: The release summary is
+    currently only available in English and German. We apologize
+    for any inconvenience. If you need help understanding a particular
+    release, please <md-link href="bWFpbHRvOmtsYXJvQGtpcHJvdGVjdC5jb20=">contact
+    us</md-link>.
+8d951300a4f85ad6:
+  de: <hr />
+  en: <hr />
+9fdd066dbe16e462:
+  de: "Diese Seite enth\xE4lt Versionsinformationen, die aus der\
+    \ [Ver\xF6ffentlichungsdatei](https://github.com/kiprotect/klaro/blob/master/releases.yml)\
+    \ auf Github geparst wurden. Sie wird automatisch generiert\
+    \ und wir versuchen, sie immer auf dem neuesten Stand zu halten,\
+    \ bitte schauen Sie auch auf unserer Github-Seite nach, um\
+    \ Informationen \xFCber neue Versionen zu erhalten."
+  en: >-
+    This page contains release information parsed from the <md-link
+    href="aHR0cHM6Ly9naXRodWIuY29tL2tpcHJvdGVjdC9rbGFyby9ibG9iL21hc3Rlci9yZWxlYXNlcy55bWw=">release
+    file</md-link> on Github.It is generated automatically and
+    we always try to keep it up to date, please also look at our
+    Github page to check for information about new releases though.
+c7a4d85a7c7b72c9:
+  de: "**Bitte beachten Sie** : Die Versionszusammenfassung ist\
+    \ derzeit nur auf Englisch verf\xFCgbar. Wir entschuldigen\
+    \ uns f\xFCr etwaige Unannehmlichkeiten. Wenn Sie Hilfe beim\
+    \ Verst\xE4ndnis einer bestimmten Version ben\xF6tigen, [kontaktieren\
+    \ Sie uns](mailto:klaro@kiprotect.com) bitte."
+  en: >-
+    <md-strong>Please note</md-strong>: The release summary is
+    currently only available in English. We apologize for any
+    inconvenience. If you need help understanding a particular
+    release, please <md-link href="bWFpbHRvOmtsYXJvQGtpcHJvdGVjdC5jb20=">contact
+    us</md-link>.
+d4c6ac47e1864cc0:
+  de: "Ver\xF6ffentlicht am **{{release.date}}**."
+  en: >-
+    Published on <md-strong><ignore v="e3tyZWxlYXNlLmRhdGV9fQ=="
+    /></md-strong>.
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+f64660db71731e15:
+  de: '{% endif %}'
+  en: <ignore v="eyUgZW5kaWYgJX0=" />

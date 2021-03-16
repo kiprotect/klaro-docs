@@ -1,0 +1,252 @@
+0beaa93524b6b0dd:
+  de: <div style="display:inline-block">
+  en: <div style="display:inline-block">
+10eaaf46cf8dae82:
+  de: '    <div class="message-body">'
+  en: '    <div class="message-body">'
+3715a3b2ab2c6696:
+  de: >2-
+            Dieses Dokument beschreibt den Setup-Prozess für die
+    Open-Source-Version von Klaro. Um mit der gehosteten Version
+    zu beginnen, melden Sie sich einfach <a href="https://kiprotect.com/klaro/prices">für
+    ein Paket</a> an und folgen Sie den Anweisungen des Installationsassistenten
+    (es ist ganz einfach).
+  en: >2-
+            This document describes the setup process for the
+    open-source version of Klaro. To get started with the hosted
+    version, simply <a href="https://kiprotect.com/klaro/prices">sign
+    up for a plan</a> and follow the instructions given by the
+    installation wizard (it's easy).
+3f2d49bebb0608cd:
+  de: '        klaro.js herunterladen'
+  en: '        Download klaro.js'
+40d4637933fc2383:
+  de: <div class="message is-info">
+  en: <div class="message is-info">
+479472fc7d8ae730:
+  de: >2-
+        <a id="versionLink" href="https://cdn.kiprotect.com/klaro/latest/klaro.js"
+    download class="button is-medium is-warning">
+  en: >2-
+        <a id="versionLink" href="https://cdn.kiprotect.com/klaro/latest/klaro.js"
+    download class="button is-medium is-warning">
+55dbc8c7889c1c85:
+  de: >-
+    Für externe Skripte tun Sie dasselbe, benennen Sie das <code>src</code>
+    Attribut jedoch zusätzlich um in (dies <code>data-src</code>
+    stellt sicher, dass der Browser das Skript nicht ohne die
+    Zustimmung des Benutzers lädt). Dies funktioniert auch für
+    andere Tags wie Bilder oder Zählpixel. Denken Sie nur daran,
+    immer ein <code>data-name</code> Attribut hinzuzufügen, das
+    mit dem Namen der Anwendung in Ihrer Konfiguration übereinstimmt,
+    damit Klaro weiß, welches Element zu welcher Anwendung gehört.
+  en: >-
+    For external script do the same, but in addition rename the
+    <code>src</code> attribute to <code>data-src</code> (this
+    ensures that the browser won't load the script without the
+    consent of the user). This also works for other tags such
+    as images or tracking pixels. Just remember to always add
+    a <code>data-name</code> attribute that matches the name of
+    the app in your config so that Klaro knows which element belongs
+    to which app.
+648006f703b04a80:
+  de: '### 3. Laden Sie die Konfiguration und das Skript'
+  en: >-
+    <md-heading v="###">3. Load the config and the script</md-heading>
+6850aaac3ceeb5e4:
+  de: >-
+    Wenn Sie Klaro selbst aufnehmen möchten, können Sie es hier
+    herunterladen.
+  en: >-
+    If you want to host Klaro yourself, you can download it here.
+757fc02a217c07aa:
+  de: '### 1. Schreiben Sie die Konfigurationsdatei'
+  en: <md-heading v="###">1. Write the config file</md-heading>
+7b1f105d676e11ad:
+  de: >-
+    Zuerst müssen Sie Klaro über die Anwendungen und Tracker von
+    Drittanbietern auf Ihrer Website informieren. Dazu schreiben
+    Sie eine einfache Javascript-Konfiguration. Am einfachsten
+    beginnen Sie damit, sich die [kommentierte Klaro-Konfigurationsdatei]({{'annotated-config'|href}})
+    anzusehen, die selbsterklärend ist. Weitere Beispiele finden
+    Sie auf der Klaro [Github-Seite](https://github.com/KIProtect/klaro/blob/master/dist/configs/).
+  en: >-
+    First, you need to tell Klaro about the third-party apps and
+    trackers on your site. To do this, you write a simple Javascript
+    config. The easiest way to get started is by looking at the
+    <md-link href="PGlnbm9yZSB2PSJlM3NuYTJ4aGNtOHVZVzV1YjNSaGRHVmtMV052Ym1acFp5ZDhhSEpsWm4xOSIgLz4=">annotated
+    Klaro config file</md-link>, which is designed to be self-explaining.
+    You can find more examples on the Klaro <md-link href="aHR0cHM6Ly9naXRodWIuY29tL0tJUHJvdGVjdC9rbGFyby9ibG9iL21hc3Rlci9kaXN0L2NvbmZpZ3Mv">Github
+    page</md-link>.
+7dc8d37d8f9fb3c6:
+  de: '    </div>'
+  en: '    </div>'
+8065220bbaeee331:
+  de: >-
+    Die Einrichtung von Klaro auf Ihrer Website ist einfach und
+    dauert in der Regel weniger als 10 Minuten. Alles, was Sie
+    tun müssen, ist eine kleine Konfigurationsdatei zu schreiben,
+    das <code>klaro.js</code> Skript zu laden und ein paar kleine
+    Änderungen an den Skripten von Drittanbietern auf Ihrer Seite
+    vorzunehmen, damit Klaro diese verwalten kann. **Fangen wir
+    also an!**
+  en: >-
+    Setting up Klaro on your website is easy and usually takes
+    less than 10 minutes. All you need to do is write a small
+    config file, load the <code>klaro.js</code> script and make
+    a few small changes to your third-party scripts on your page
+    so that Klaro can manage them. <md-strong>So let's get started!</md-strong>
+8c106a0be207ab68:
+  de: '    <div class="select">'
+  en: '    <div class="select">'
+8f1807353fe0e99f:
+  de: >-
+    Wenn Sie bei der Einrichtung von Klaro auf Schwierigkeiten
+    stoßen oder wenn Sie eine neue Funktion vorschlagen oder einen
+    Fehler melden möchten, <a href="https://github.com/kiprotect/klaro/issues">öffnen
+    Sie</a> bitte <a href="https://github.com/kiprotect/klaro/issues">eine
+    Github-<tr-ignore>Issue</tr-ignore></a> oder setzen <a href="mailto:klaro@kiprotect.com">Sie</a>
+    sich mit uns in Verbindung, wir freuen uns, von Ihnen zu hören!
+  en: >-
+    If you encounter any difficulties when setting up Klaro or
+    if you want to suggest a new feature or report a bug, please
+    <a href="https://github.com/kiprotect/klaro/issues">open a
+    Github-<tr-ignore>Issue</tr-ignore></a> or <a href="mailto:klaro@kiprotect.com">get
+    in touch with us</a>, we love to hear from you!
+8fceb60592b75bb0:
+  de: >2-
+        <a id="versionLink" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"
+    download class="button is-medium is-warning">
+  en: >2-
+        <a id="versionLink" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"
+    download class="button is-medium is-warning">
+989d8c8d04246b3b:
+  de: >-
+    Zuerst müssen Sie Klaro über die Apps und Tracker von Drittanbietern
+    auf Ihrer Website informieren. Um dies zu tun, schreiben Sie
+    eine einfache Javascript-Konfiguration. Am einfachsten beginnen
+    Sie, indem Sie sich die [kommentierte Klaro-Konfigurationsdatei]({{'annotated-config'|href}})
+    ansehen, die so gestaltet ist, dass sie selbsterklärend ist.
+    Weitere Beispiele finden Sie auf der Klaro [Github-Seite](https://github.com/KIProtect/klaro/blob/master/dist/configs/).
+  en: >-
+    First, you need to tell Klaro about the third-party apps and
+    trackers on your site. To do this, you write a simple Javascript
+    config. The easiest way to get started is by looking at the
+    <md-link href="PGlnbm9yZSB2PSJlM3NuWVc1dWIzUmhkR1ZrTFdOdmJtWnBaeWQ4YUhKbFpuMTkiIC8-">annotated
+    Klaro config file</md-link>, which is designed to be self-explaining.
+    You can find more examples on the Klaro <md-link href="aHR0cHM6Ly9naXRodWIuY29tL0tJUHJvdGVjdC9rbGFyby9ibG9iL21hc3Rlci9kaXN0L2NvbmZpZ3Mv">Github
+    page</md-link>.
+9e4527fb137f0b37:
+  de: <div>
+  en: <div>
+9ed91eeb35a71853:
+  de: '        </select>'
+  en: '        </select>'
+a2c216e38e05f830:
+  de: '### 2. Ändern Sie Ihre Skripts von Drittanbietern'
+  en: >-
+    <md-heading v="###">2. Modify your third-party scripts</md-heading>
+aac32651b10f567c:
+  de: </div>
+  en: </div>
+af9d908c86d97f56:
+  de: '    </a>'
+  en: '    </a>'
+bad34023d0460659:
+  de: '# Erste Schritte'
+  en: <md-heading v="#">Getting Started</md-heading>
+bbefa7db342526b3:
+  de: >-
+    Um sicherzustellen, dass keine Skripte Dritter ohne Zustimmung
+    geladen werden, müssen Sie Ihren HTML-Code ein wenig modifizieren:
+    Ersetzen Sie bei Inline-Skripten den Wert des <code>type</code>
+    Attributs durch (dies <code>text/plain</code> verhindert,
+    dass der Browser das Skript ausführt) und fügen Sie ein Datenattribut
+    mit dem ursprünglichen Typ hinzu, z.B. <code>data-type="application/javascript"</code>.
+    Fügen Sie auch ein <code>data-name</code> Attribut hinzu,
+    das dem Namen der gegebenen Anwendung in Ihrer Konfiguration
+    entspricht, z.B. <code>data-name="googleAnalytics"</code>.
+  en: >-
+    To make sure that no third-party scripts are loaded without
+    consent, you need to modify your HTML code a tiny bit: For
+    inline scripts, replace the value of the <code>type</code>
+    attribute with <code>text/plain</code> (this keeps the browser
+    from executing the script) and add a data attribute with the
+    original type, e.g. <code>data-type="application/javascript"</code>.
+    Also add a <code>data-name</code> attribute that matches the
+    name of the given app in your config, e.g. <code>data-name="googleAnalytics"</code>.
+d00ae50cc7a852a6:
+  de: >-
+    Wir bieten auch eine Version von Klaro ohne Stile an, was
+    praktisch ist, falls Sie unsere eigene Version mitbringen
+    oder unsere anpassen möchten. Laden Sie einfach <a href="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"
+    download>klaro-no-css.js</a> und das Mini-Stylesheet <a href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css"
+    download>klaro.min.css</a> herunter und fügen Sie beide in
+    Ihr HTML ein. Wir haben auch ein unminifiziertes Stylesheet
+    <a href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css" download>klaro.css</a>,
+    das sich hervorragend eignet, wenn Sie Änderungen daran vornehmen
+    möchten. Sie können sich auch die <a href="https://github.com/KIProtect/klaro/blob/master/src/scss/klaro.scss">SCSS-Datei</a>
+    ansehen.
+  en: >-
+    We also provide a version of Klaro without styles, which is
+    handy in case you want to bring our own or customize ours.
+    Simply download <a href="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"
+    download>klaro-no-css.js</a> and the minified stylesheet <a
+    href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css"
+    download>klaro.min.css</a> and include both of them in your
+    HTML. We also have an unminified <a href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css"
+    download>klaro.css</a> stylesheet, which is great if you want
+    to make modifications to it. You can also look at the <a href="https://github.com/KIProtect/klaro/blob/master/src/scss/klaro.scss">SCSS
+    file</a>.
+dac7fb5d3bccfdba:
+  de: >-
+    Fügen Sie schließlich sowohl das Konfigurationsskript als
+    auch den Klaro-Code auf Ihrer Seite ein. Sie können das Laden
+    der Skripte verzögern, wenn Sie möchten. Stellen Sie nur sicher,
+    dass die Konfiguration initialisiert ist, wenn Klaro geladen
+    wird. Schauen Sie sich unsere <a href="https://github.com/kiprotect/klaro/tree/master/examples">Beispiele</a>
+    an, um sich inspirieren zu lassen.
+  en: >-
+    Finally, include both the config script as well as the Klaro
+    code on your page. You can defer the loading of the scripts
+    if you like, just make sure the config is initialized when
+    Klaro loads. You can have a look at our <a href="https://github.com/kiprotect/klaro/tree/master/examples">examples</a>
+    to get some inspiration.
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+ed639010da307bd8:
+  de: '### Probleme, Fragen, Anregungen?'
+  en: >-
+    <md-heading v="###">Problems, Questions, Suggestions?</md-heading>
+f4a1c3d3f731872b:
+  de: >2-
+            <select onChange="versionLink.href='https://cdn.kiprotect.com/klaro/'+versionSelect.value+'/klaro.js'"
+    id="versionSelect" class="select" name="klaro-version">
+  en: >2-
+            <select onChange="versionLink.href='https://cdn.kiprotect.com/klaro/'+versionSelect.value+'/klaro.js'"
+    id="versionSelect" class="select" name="klaro-version">
+ff03d4e4ba6ec9e1:
+  de: >-
+    Wir bieten auch eine Version von Klaro ohne Stile an, was
+    praktisch ist, falls Sie unsere eigene Version mitbringen
+    oder unsere anpassen möchten. Laden Sie einfach <a href="https://cdn.kiprotect.com/klaro/latest/klaro-no-css.js"
+    download>klaro-no-css.js</a> und das Mini-Stylesheet <a href="https://cdn.kiprotect.com/klaro/latest/klaro.min.css"
+    download>klaro.min.css</a> herunter und fügen Sie beide in
+    Ihr HTML ein. Wir haben auch ein unminifiziertes Stylesheet
+    <a href="https://cdn.kiprotect.com/klaro/latest/klaro.css"
+    download>klaro.css</a>, das sich hervorragend eignet, wenn
+    Sie Änderungen daran vornehmen möchten. Sie können sich auch
+    die <a href="https://github.com/KIProtect/klaro/blob/master/src/scss/klaro.scss">SCSS-Datei</a>
+    ansehen.
+  en: >-
+    We also provide a version of Klaro without styles, which is
+    handy in case you want to bring our own or customize ours.
+    Simply download <a href="https://cdn.kiprotect.com/klaro/latest/klaro-no-css.js"
+    download>klaro-no-css.js</a> and the minified stylesheet <a
+    href="https://cdn.kiprotect.com/klaro/latest/klaro.min.css"
+    download>klaro.min.css</a> and include both of them in your
+    HTML. We also have an unminified <a href="https://cdn.kiprotect.com/klaro/latest/klaro.css"
+    download>klaro.css</a> stylesheet, which is great if you want
+    to make modifications to it. You can also look at the <a href="https://github.com/KIProtect/klaro/blob/master/src/scss/klaro.scss">SCSS
+    file</a>.

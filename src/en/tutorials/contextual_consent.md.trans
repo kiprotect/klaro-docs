@@ -1,0 +1,109 @@
+183eed8c9068dc75:
+  de: "Hier ist die entsprechende Beispiel-Klaro-Konfiguration.\
+    \ Wir haben den \"Accept All\"-Fluss verwendet, aber den eingebetteten\
+    \ Youtube-Inhalt davon ausgenommen, indem wir `contextualConsentOnly`\
+    \ auf `true` setzen. Im Gegensatz dazu werden Twitter-Links\
+    \ automatisch aktiviert, wenn der Benutzer über die Einverständniserklärung\
+    \ seine Zustimmung erteilt. "
+  en: "Here's the corresponding example Klaro config. We used\
+    \ the \"Accept All\" flow but exempted the embedded Youtube\
+    \ content from it by setting <md-code>contextualConsentOnly</md-code>\
+    \ to <md-code>true</md-code>. Contrary to that, Twitter links\
+    \ will be automatically enabled when the user grants consent\
+    \ via the consent notice. "
+1a0f564ddc603945:
+  de: '    '
+  en: '    '
+44fcb2d44b483472:
+  de: <div id="klaroTutorial">
+  en: <div id="klaroTutorial">
+493997dfcaba5955:
+  de: >-
+    das `src` -Attribut mit `data-src` und fügen Sie ein `data-name`
+    -Attribut hinzu. Darüber hinaus erstellen wir auch einen Dienst
+    mit demselben Namen in unserer Konfigurationsdatei (siehe
+    Konfiguration unten), und Klaro erledigt den Rest. Los geht's!
+  en: >-
+    the <md-code>src</md-code> attribute with <md-code>data-src</md-code>
+    and add a <md-code>data-name</md-code> attribute. In addition,
+    we also create a service with the same name in our config
+    file (see config below), and Klaro will do the rest. Let's
+    roll!
+5e6ffbbb6fcd4d60:
+  de: '## Beispiel: Lass uns Rick Roll machen!'
+  en: '<md-heading v="##">Example: Let''s Rick Roll!</md-heading>'
+7d7e7d702cf4be74:
+  de: "In diesem Lernprogramm wird die Verwendung von Klaros \"\
+    kontextbezogener Zustimmung\" erläutert, mit der Sie die Zustimmung\
+    \ der Benutzer einholen können, bevor Sie z.B. eingebettete\
+    \ Youtube-Videos oder andere Inhalte zeigen. Die Einverständniserklärung,\
+    \ die Sie auf dieser Seite sehen, zeigt, wie dieser Mechanismus\
+    \ funktioniert. Sie können den Zustimmungsmechanismus testen\
+    \ und die Seite einfach neu laden, um den Status des Zustimmungsmanagers\
+    \ zurückzusetzen. "
+  en: "This tutorial explains how to use Klaro's \"contextual\
+    \ consent\" feature, which enables you to ask for the users'\
+    \ consent before showing e.g. embedded Youtube videos or other\
+    \ content. The consent notice you see on this page demonstrates\
+    \ how this mechanism works. You can test the consent mechanism\
+    \ and simply reload the page to reset the state of the consent\
+    \ manager. "
+8c56f55b426b9375:
+  de: >-
+    Nehmen wir an, wir möchten ein Youtube-Video in unsere Website
+    einbetten. Dies können wir tun, indem wir den unten / rechts
+    gezeigten Code `iframe` einbetten. Um die kontextbezogene
+    Zustimmung zu ermöglichen, ersetzen wir einfach
+  en: >-
+    Let's assume we want to embed a Youtube video in our website.
+    We can do this by embedding the <md-code>iframe</md-code>
+    code shown below / on the right. To enable the contextual
+    consent, we simply replace
+9ace04a41848549e:
+  de: '# Kontextuelle Zustimmung'
+  en: <md-heading v="#">Contextual Consent</md-heading>
+9d153f66f11818f7:
+  de: >-
+    In diesem Lernprogramm wird die Verwendung von Klaros "kontextbezogener
+    Zustimmung" erläutert, mit der Sie die Zustimmung der Benutzer
+    einholen können, bevor Sie z.B. eingebettete Youtube-Videos
+    oder andere Inhalte zeigen. Die Einverständniserklärung, die
+    Sie auf dieser Seite sehen, zeigt, wie dieser Mechanismus
+    funktioniert. Sie können den Zustimmungsmechanismus testen
+    und die Seite einfach neu laden, um den Status des Zustimmungsmanagers
+    zurückzusetzen. Hier ist der Zustimmungsmanager (sehen Sie
+    sich unbedingt die folgenden Beispiele an, bevor Sie mit ihm
+    interagieren):
+  en: >-
+    This tutorial explains how to use Klaro's "contextual consent"
+    feature, which enables you to ask for the users' consent before
+    showing e.g. embedded Youtube videos or other content. The
+    consent notice you see on this page demonstrates how this
+    mechanism works. You can test the consent mechanism and simply
+    reload the page to reset the state of the consent manager.
+    Here's the consent manager (make sure to check out the examples
+    below before before interacting with it):
+aac32651b10f567c:
+  de: </div>
+  en: </div>
+d13d6d7146ce15f5:
+  de: '## Beispiel: Lasst uns twittern!'
+  en: '<md-heading v="##">Example: Let''s tweet!</md-heading>'
+d9145c3c89966ac4:
+  de: >-
+    Dieselbe Technik funktioniert auch mit anderen HTML-Elementen
+    wie `div` s: Fügen Sie einfach einen Eintrag `data-name` zu
+    dem Element hinzu, fügen Sie einen entsprechenden Dienst mit
+    dem gleichen Namen zu Ihrer Konfiguration hinzu und lassen
+    Sie Klaro einen Platzhalter hinzufügen.
+  en: >-
+    The same technique works with other HTML elements like <md-code>div</md-code>s:
+    Simply add a <md-code>data-name</md-code> entry to the element,
+    add a corresponding service with the same name to your config,
+    and let Klaro add a placeholder.
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+e523556bfd0db541:
+  de: '## Beispiel Config'
+  en: <md-heading v="##">Example Config</md-heading>

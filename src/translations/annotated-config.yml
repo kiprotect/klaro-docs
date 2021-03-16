@@ -1,0 +1,433 @@
+klaro:
+  annotated-config:
+    acceptAll:
+      _t:
+        de: a2a80174499f37c7
+        en: a2a80174499f37c7
+      de: "Wenn Sie \"acceptAll\" auf \"true\" setzen, wird in\
+        \ der Benachrichtigung und im Modal eine Schaltfläche\
+        \ \"accept all\" angezeigt, die alle Dienste von Drittanbietern\
+        \ aktiviert, wenn der Benutzer darauf klickt. Wenn auf\
+        \ \"false\" gesetzt, wird eine Schaltfläche \"accept\"\
+        \ angezeigt, die nur die Dienste aktiviert, die im Zustimmungsmodus\
+        \ aktiviert sind. "
+      en: "Setting 'acceptAll' to 'true' will show an \"accept\
+        \ all\" button in the notice and modal, which will enable\
+        \ all third-party services if the user clicks on it. If\
+        \ set to 'false', there will be an \"accept\" button that\
+        \ will only enable the services that are enabled in the\
+        \ consent modal. "
+    callback:
+      _t:
+        de: 2e75f14362ec7d87
+        en: 2e75f14362ec7d87
+      de: "Sie können eine optionale Rückruf-Funktion definieren,\
+        \ die jedes Mal aufgerufen wird, wenn sich der Zustimmungsstatus\
+        \ für einen bestimmten Dienst ändert. Der Zustimmungswert\
+        \ wird als erster Parameter an die Funktion übergeben\
+        \ (true=zustimmend). Die Konfiguration `service` wird\
+        \ als zweiter Parameter übergeben. "
+      en: "You can define an optional callback function that will\
+        \ be called each time the consent state for any given\
+        \ service changes. The consent value will be passed as\
+        \ the first parameter to the function (true=consented).\
+        \ The `service` config will be passed as the second parameter. "
+    cookieDomain:
+      _t:
+        de: 32e0fef6a367a421
+        en: 32e0fef6a367a421
+      de: "Sie können die Cookie-Domäne für den consent manager\
+        \ selbst ändern. Verwenden Sie dies, wenn Sie die Zustimmung\
+        \ einmal für mehrere übereinstimmende Domänen erhalten\
+        \ möchten. Standardmäßig wird Klaro die aktuelle Domäne\
+        \ verwenden. Nur relevant, wenn 'storageMethod' auf 'cookie'\
+        \ gesetzt ist. "
+      en: "You can change the cookie domain for the consent manager\
+        \ itself. Use this if you want to get consent once for\
+        \ multiple matching domains. By default, Klaro will use\
+        \ the current domain. Only relevant if 'storageMethod'\
+        \ is set to 'cookie'. "
+    cookieExpiresAfterDays:
+      _t:
+        de: 079e0a8736e1503b
+        en: 079e0a8736e1503b
+      de: "Sie können auch eine benutzerdefinierte Verfallszeit\
+        \ für das Klaro-Cookie festlegen. Standardmäßig läuft\
+        \ es nach 30 Tagen ab. Nur relevant, wenn 'storageMethod'\
+        \ auf 'cookie' gesetzt ist. "
+      en: "You can also set a custom expiration time for the Klaro\
+        \ cookie. By default, it will expire after 30 days. Only\
+        \ relevant if 'storageMethod' is set to 'cookie'. "
+    default:
+      _t:
+        de: 68360840ebb04620
+        en: 68360840ebb04620
+      de: "Definiert den Standardzustand für Dienste im Zustimmungsmodus\
+        \ (standardmäßig true=aktiviert). Sie können diese Einstellung\
+        \ in jedem Dienst außer Kraft setzen. "
+      en: "Defines the default state for services in the consent\
+        \ modal (true=enabled by default). You can override this\
+        \ setting in each service. "
+    elementID:
+      _t:
+        de: e4d3298ad9803c39
+        en: e4d3298ad9803c39
+      de: "Sie können die ID des DIV-Elements, das Klaro beim\
+        \ Start erstellt, anpassen. Standardmäßig wird Klaro 'klaro'\
+        \ verwenden. "
+      en: "You can customize the ID of the DIV element that Klaro\
+        \ will create when starting up. By default, Klaro will\
+        \ use 'klaro'. "
+    hideDeclineAll:
+      _t:
+        de: 51feb37fcc8d85c8
+        en: 51feb37fcc8d85c8
+      de: "Wenn Sie 'hideDeclineAll' auf 'true' setzen, wird die\
+        \ Schaltfläche \"decline\" im Zustimmungsmodal ausgeblendet\
+        \ und der Benutzer gezwungen, das Modal zu öffnen, um\
+        \ seine Zustimmung zu ändern oder alle Dienste Dritter\
+        \ zu deaktivieren. Wir raten Ihnen dringend davon ab,\
+        \ diese Funktion zu verwenden, da sie den Prinzipien \"\
+        privacy by default\" und \"privacy by design\" des GDPR\
+        \ widerspricht (aber in anderen Gesetzgebungen, wie z.B.\
+        \ dem CCPA, akzeptabel sein könnte). "
+      en: "Setting 'hideDeclineAll' to 'true' will hide the \"\
+        decline\" button in the consent modal and force the user\
+        \ to open the modal in order to change his/her consent\
+        \ or disable all third-party services. We strongly advise\
+        \ you to not use this feature, as it opposes the \"privacy\
+        \ by default\" and \"privacy by design\" principles of\
+        \ the GDPR (but might be acceptable in other legislations\
+        \ such as under the CCPA) "
+    hideLearnMore:
+      _t:
+        de: 0fc324f7d2f7166e
+        en: 0fc324f7d2f7166e
+      de: "Wenn Sie 'hideLearnMore' auf 'true' setzen, wird der\
+        \ Link \"mehr erfahren / anpassen\" in der Einverständniserklärung\
+        \ ausgeblendet. Wir raten dringend davon ab, dies unter\
+        \ den meisten Umständen zu verwenden, da es den Benutzer\
+        \ davon abhält, seine Einverständniserklärung anzupassen. "
+      en: "Setting 'hideLearnMore' to 'true' will hide the \"\
+        learn more / customize\" link in the consent notice. We\
+        \ strongly advise against using this under most circumstances,\
+        \ as it keeps the user from customizing his/her consent\
+        \ choices. "
+    htmlTexts:
+      _t:
+        de: a8b8594d8c171a18
+        en: a8b8594d8c171a18
+      de: "Wenn auf `true` gesetzt, gibt Klaro die in den `consentModal.description`\
+        \ und `consentNotice.description` Übersetzungen angegebenen\
+        \ Texte als HTML wieder. Auf diese Weise können Sie z.B.\
+        \ benutzerdefinierte Links oder interaktive Inhalte hinzufügen. "
+      en: "If set to `true`, Klaro will render the texts given\
+        \ in the `consentModal.description` and `consentNotice.description`\
+        \ translations as HTML. This enables you to e.g. add custom\
+        \ links or interactive content. "
+    intro:
+      _t:
+        de: a6631712044ff210
+        en: a6631712044ff210
+      de: >-
+        Standardmäßig lädt Klaro die Konfiguration aus einer globalen
+        'klaroConfig'-Variablen. Sie können dies ändern, indem
+        Sie das Attribut 'data-klaro-config' in Ihrem Skript angeben:
+        <script src="klaro.js" data-klaro-config="myConfigVariableName"
+      en: >-
+        By default, Klaro will load the config from a global 'klaroConfig'
+        variable. You can change this by specifying the 'data-klaro-config'
+        attribute on your script: <script src="klaro.js" data-klaro-config="myConfigVariableName"
+    lang:
+      _t:
+        de: 2de7b0586ae7563f
+        en: 2de7b0586ae7563f
+      de: "Sie können die UI-Sprache hier direkt definieren. Wenn\
+        \ nicht definiert, verwendet Klaro den in der globalen\
+        \ Variable 'lang' angegebenen Wert. Existiert diese nicht,\
+        \ verwendet Klaro den im 'lang'-Attribut Ihres HTML-Tags\
+        \ angegebenen Wert. Wenn das auch nicht vorhanden ist,\
+        \ wird 'en' verwendet. lang: 'en', "
+      en: "You can define the UI language directly here. If undefined,\
+        \ Klaro will use the value given in the global 'lang'\
+        \ variable. If that does not exist, it will use the value\
+        \ given in the 'lang' attribute of your HTML tag. If that\
+        \ also doesn't exist, it will use 'en'. lang: 'en', "
+    mustConsent:
+      _t:
+        de: 2a0764181b10185f
+        en: 2a0764181b10185f
+      de: "Wenn 'mustConsent' auf 'true' gesetzt ist, zeigt Klaro\
+        \ den consent manager modal direkt an und erlaubt dem\
+        \ Benutzer nicht, ihn zu schließen, bevor er der Nutzung\
+        \ von Diensten Dritter nicht aktiv zugestimmt oder diese\
+        \ abgelehnt hat. "
+      en: "If 'mustConsent' is set to 'true', Klaro will directly\
+        \ display the consent manager modal and not allow the\
+        \ user to close it before having actively consented or\
+        \ declined the use of third-party services. "
+    privacyPolicy:
+      _t:
+        de: 78367428677b4b09
+        en: 78367428677b4b09
+      de: >-
+        Sie können hier einen sprachspezifischen Link zu Ihrer
+        Datenschutzrichtlinie angeben.
+      en: >-
+        You can specify a language-specific link to your privacy
+        policy here.
+    services:
+      callback:
+        _t:
+          de: 03ff1edc03cb19a9
+          en: 03ff1edc03cb19a9
+        de: "Sie können eine optionale Rückruf-Funktion definieren,\
+          \ die jedes Mal aufgerufen wird, wenn sich der Zustimmungsstatus\
+          \ für den gegebenen Dienst ändert. Der Zustimmungswert\
+          \ wird als erster Parameter an die Funktion übergeben\
+          \ (true=zustimmend). Die Konfiguration `service` wird\
+          \ als zweiter Parameter übergeben. "
+        en: "You can define an optional callback function that\
+          \ will be called each time the consent state for the\
+          \ given service changes. The consent value will be passed\
+          \ as the first parameter to the function (true=consented).\
+          \ The `service` config will be passed as the second\
+          \ parameter. "
+      cookies:
+        fully-qualified:
+          _t:
+            de: 9829b6180a782bf9
+            en: 9829b6180a782bf9
+          de: "Diese Regel passt auf Cookies, die die Zeichenfolge\
+            \ '_pk_' enthalten und die auf den Pfad '/' und die\
+            \ Domäne 'klaro.kiprotect.com' gesetzt sind. "
+          en: "This rule will match cookies that contain the string\
+            \ '_pk_' and that are set on the path '/' and the\
+            \ domain 'klaro.kiprotect.com' "
+        fully-qualified-2:
+          _t:
+            de: 474a2236137f94b4
+            en: 474a2236137f94b4
+          de: 'Dasselbe wie oben, nur für die Domäne ''localhost''. '
+          en: 'Same as above, only for the ''localhost'' domain '
+        intro:
+          _t:
+            de: 33a95dea7c1fa373
+            en: 33a95dea7c1fa373
+          de: "entweder nur einen Cookie-Namen oder einen regulären\
+            \ Ausdruck (regex) oder eine Liste bestehend aus einem\
+            \ Namen oder einem regulären Ausdruck, einem Pfad\
+            \ und einer Cookie-Domäne angeben. Die Angabe eines\
+            \ Pfades und einer Domäne ist erforderlich, wenn Sie\
+            \ Dienste haben, die Cookies für einen Pfad, der nicht\
+            \ \"/\" ist, oder eine Domäne, die nicht die aktuelle\
+            \ Domäne ist, setzen. Wenn Sie diese Werte nicht richtig\
+            \ setzen, kann das Cookie von Klaro nicht gelöscht\
+            \ werden, da es keine Möglichkeit gibt, auf den Pfad\
+            \ oder die Domäne eines Cookies in JS zuzugreifen.\
+            \ Beachten Sie, dass es nicht möglich ist, Cookies\
+            \ zu löschen, die auf einer Domäne eines Drittanbieters\
+            \ gesetzt wurden, oder Cookies, die das Attribut HTTPOnly\
+            \ haben: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain "
+          en: "you an either only provide a cookie name or regular\
+            \ expression (regex) or a list consisting of a name\
+            \ or regex, a path and a cookie domain. Providing\
+            \ a path and domain is necessary if you have services\
+            \ that set cookies for a path that is not \"/\", or\
+            \ a domain that is not the current domain. If you\
+            \ do not set these values properly, the cookie can't\
+            \ be deleted by Klaro, as there is no way to access\
+            \ the path or domain of a cookie in JS. Notice that\
+            \ it is not possible to delete cookies that were set\
+            \ on a third-party domain, or cookies that have the\
+            \ HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain "
+        simple:
+          _t:
+            de: eef6459ecba73cc3
+            en: eef6459ecba73cc3
+          de: "Diese Regel trifft auf alle Cookies mit dem Namen\
+            \ 'piwik_ignore' zu, die auf dem Pfad '/' auf der\
+            \ aktuellen Domain gesetzt sind "
+          en: "This rule will match all cookies named 'piwik_ignore'\
+            \ that are set on the path '/' on the current domain "
+      default:
+        _t:
+          de: d8791715c94f9113
+          en: d8791715c94f9113
+        de: "Wenn 'default' auf 'true' gesetzt ist, wird der Dienst\
+          \ standardmäßig aktiviert. Dadurch wird die globale\
+          \ 'Standard'-Einstellung außer Kraft gesetzt. "
+        en: "If 'default' is set to 'true', the service will be\
+          \ enabled by default. This overrides the global 'default'\
+          \ setting. "
+      intro:
+        _t:
+          de: 4455eb576d97a2bc
+          en: 4455eb576d97a2bc
+        de: "Hier geben Sie an, welche Drittanbieterdienste Klaro\
+          \ für Sie verwalten wird. "
+        en: "Here you specify the third-party services that Klaro\
+          \ will manage for you. "
+      name:
+        _t:
+          de: 41f33c7b27e02357
+          en: 41f33c7b27e02357
+        de: "Jeder Dienst muss einen eindeutigen Namen haben.\
+          \ Klaro sucht nach HTML-Elementen mit einem passenden\
+          \ Attribut \"data-name\", um Elemente zu identifizieren,\
+          \ die zu diesem Dienst gehören. "
+        en: "Each service must have a unique name. Klaro will\
+          \ look for HTML elements with a matching 'data-name'\
+          \ attribute to identify elements that belong to this\
+          \ service. "
+      onlyOnce:
+        _t:
+          de: 7fe8166f5e63558a
+          en: 7fe8166f5e63558a
+        de: "Wenn 'onlyOnce' auf 'true' gesetzt ist, wird der\
+          \ Dienst nur einmal ausgeführt, unabhängig davon, wie\
+          \ oft der Benutzer ihn ein- und ausschaltet. Dies ist\
+          \ z.B. für die Verfolgung von Skripten relevant, die\
+          \ jedes Mal neue Seitenaufrufereignisse erzeugen würden,\
+          \ wenn Klaro sie aufgrund einer Zustimmungsänderung\
+          \ durch den Benutzer deaktiviert und wieder aktiviert. "
+        en: "If 'onlyOnce' is set to 'true', the service will\
+          \ only be executed once regardless how often the user\
+          \ toggles it on and off. This is relevant e.g. for tracking\
+          \ scripts that would generate new page view events every\
+          \ time Klaro disables and re-enables them due to a consent\
+          \ change by the user. "
+      optOut:
+        _t:
+          de: 6fb40e4719c4ff30
+          en: 6fb40e4719c4ff30
+        de: "Wenn 'optOut' auf 'true' gesetzt ist, lädt Klaro\
+          \ diesen Dienst, noch bevor der Benutzer seine ausdrückliche\
+          \ Zustimmung gegeben hat. Wir raten dringend davon ab. "
+        en: "If 'optOut' is set to 'true', Klaro will load this\
+          \ service even before the user has given explicit consent.\
+          \ We strongly advise against this. "
+      purposes:
+        _t:
+          de: '8326014589813875'
+          en: '8326014589813875'
+        de: "Der/die Zweck(e) dieses Dienstes, der/die auf der\
+          \ Einverständniserklärung aufgeführt wird/werden. Vergessen\
+          \ Sie nicht, Übersetzungen für alle Zwecke, die Sie\
+          \ hier aufführen, hinzuzufügen. "
+        en: "The purpose(s) of this service that will be listed\
+          \ on the consent notice. Do not forget to add translations\
+          \ for all purposes you list here. "
+      required:
+        _t:
+          de: 6e34e6b181bde2ac
+          en: 6e34e6b181bde2ac
+        de: "Wenn 'erforderlich' auf 'wahr' gesetzt ist, lässt\
+          \ Klaro nicht zu, dass dieser Dienst vom Benutzer deaktiviert\
+          \ wird. Verwenden Sie dies für Dienste, die für das\
+          \ Funktionieren Ihrer Website immer erforderlich sind\
+          \ (z.B. Warenkorb-Cookies). "
+        en: "If 'required' is set to 'true', Klaro will not allow\
+          \ this service to be disabled by the user. Use this\
+          \ for services that are always required for your website\
+          \ to function (e.g. shopping cart cookies). "
+      translations:
+        _t:
+          de: 6a79da417df2bfe3
+          en: 6a79da417df2bfe3
+        de: "Übersetzungen, die zu diesem Dienst gehören, finden\
+          \ Sie hier. Der Schlüssel `zz` enthält Standardübersetzungen,\
+          \ die als Ausweichlösung verwendet werden, wenn für\
+          \ eine bestimmte Sprache keine Übersetzungen definiert\
+          \ sind. "
+        en: "Translations belonging to this service go here. The\
+          \ key `zz` contains default translations that will be\
+          \ used as a fallback if there are no translations defined\
+          \ for a given language. "
+    storageMethod:
+      _t:
+        de: 0d634922f7a82bf5
+        en: 0d634922f7a82bf5
+      de: "Sie können anpassen, wie Klaro die Zustimmungsinformationen\
+        \ im Browser speichert. Geben Sie entweder 'cookie' (Standard)\
+        \ oder 'localStorage' an. "
+      en: "You can customize how Klaro persists consent information\
+        \ in the browser. Specify either cookie' (the default)\
+        \ or 'localStorage'. "
+    storageName:
+      _t:
+        de: 333a27144636fab5
+        en: 333a27144636fab5
+      de: "Sie können den Namen des Cookies oder des localStorage-Eintrags\
+        \ anpassen, den Klaro zum Speichern der Zustimmungsinformationen\
+        \ verwenden wird. Standardmäßig wird Klaro 'klaro' verwenden. "
+      en: "You can customize the name of the cookie or localStorage\
+        \ entry that Klaro will use for storing the consent information.\
+        \ By default, Klaro will use 'klaro'. "
+    testing:
+      _t:
+        de: e52f1b814637b8cb
+        en: e52f1b814637b8cb
+      de: >-
+        Die Einstellung von "testing" auf "true" bewirkt, dass
+        Klaro die Einverständniserklärung oder modal standardmäßig
+        nicht anzeigt, außer wenn ein spezieller Hash-Tag an die
+        URL angehängt ist (#klaro-testing). Dadurch ist es möglich,
+        Klaro auf Ihrer Live-Website zu testen, ohne normale Besucher
+        zu beeinträchtigen.
+      en: >-
+        Setting 'testing' to 'true' will cause Klaro to not show
+        the consent notice or modal by default, except if a special
+        hash tag is appended to the URL (#klaro-testing). This
+        makes it possible to test Klaro on your live website without
+        affecting normal visitors.
+    translations:
+      erase:
+        _t:
+          de: 45ace1b4627d95e6
+          en: 45ace1b4627d95e6
+        de: "Durch das Löschen von Schlüsseln aus diesen Übersetzungen\
+          \ verwendet Klaro die standardmäßigen, gebündelten Übersetzungen.\
+          \ Der Schlüssel der obersten Ebene ist der Sprachencode: "
+        en: "Erasing keys from these translations will make Klaro\
+          \ use the default, bundled translations. The top-level\
+          \ key is the language code: "
+      intro:
+        _t:
+          de: a5f0b17bcbc84186
+          en: a5f0b17bcbc84186
+        de: "Sie können vorhandene Übersetzungen überschreiben\
+          \ und Übersetzungen für Ihre Dienstbeschreibungen und\
+          \ Zwecke hinzufügen. Eine vollständige Liste der Übersetzungen,\
+          \ die überschrieben werden können, finden Sie unter\
+          \ `src/translations/` : https://github.com/KIProtect/klaro/tree/master/src/translations "
+        en: "You can overwrite existing translations and add translations\
+          \ for your service descriptions and purposes. See `src/translations/`\
+          \ for a full list of translations that can be overwritten:\
+          \ https://github.com/KIProtect/klaro/tree/master/src/translations "
+      purposes:
+        _t:
+          de: 754ab0806ccdabd1
+          en: 754ab0806ccdabd1
+        de: >-
+          Sie sollten auch Übersetzungen für jeden Zweck, den
+          Sie im Abschnitt "Dienstleistungen" definieren, definieren.
+          Sie können einen Titel und eine (optionale) Beschreibung
+          definieren.
+        en: >-
+          You should also define translations for every purpose
+          you define in the 'services' section. You can define
+          a title and an (optional) description.
+      zz:
+        _t:
+          de: 36ce7e5f1d203f31
+          en: 36ce7e5f1d203f31
+        de: >-
+          Der Schlüssel `zz` enthält Standardübersetzungen, die
+          als Ersatzwerte verwendet werden. Dies kann z.B. nützlich
+          sein, um eine Fallback-URL für Datenschutzrichtlinien
+          zu definieren.
+        en: >-
+          The `zz` key contains default translations that will
+          be used as fallback values. This can e.g. be useful
+          for defining a fallback privacy policy URL.

@@ -1,0 +1,71 @@
+title: Klaro! Documentation
+pages:
+  - src: common/index.html
+    title|t: Klaro! Documentation
+    navtitle|t: Klaro! Documentation
+    name: ''
+    hidden: true
+  - src|f|exists?: "{target_language}/getting_started.md"
+    title|t: Getting started
+    slug||slugify: getting-started
+    name: getting-started
+  - type: cateogry
+    title|t: Tutorials
+    slug||slugify: tutorials
+    name: tutorials
+    children:
+      - src|f|exists?: "{target_language}/tutorials/contextual_consent.md"
+        title|t: Contextual Consent
+        template: markdown.html
+        name: contextual_consent
+      - src|f|exists?: "{target_language}/tutorials/google_tag_manager.md"
+        title|t: Google Tag Manager
+        template: markdown.html
+        name: google_tag_manager
+  # this is a JS file that gets translated via translation strings
+  - src: common/annotated_config.js
+    title|t: Annotated Config File
+    slug||slugify: annotated-config-file
+    extension: js
+    hidden: true
+    type: html
+    name: annotated-config-file
+  - name: integration
+    title|t: Integration
+    slug||slugify: integration
+    type: category
+    children:
+    - src|f|exists?: "{target_language}/integration.md"
+      name: ''
+      title|t: Overview
+      slug||slugify: overview
+      template: markdown.html
+    - src|f|exists?: "{target_language}/testing.md"
+      name: testing
+      title|t: Testing
+      slug||slugify: testing
+      template: markdown.html
+    - src|f|exists?: "{target_language}/annotated_config.md"
+      name: annotated-config
+      title|t: Annotated configuration
+      slug||slugify: annotated-config
+      template: markdown_wide.html
+  - src|f|exists?: "{target_language}/releases.md"
+    name: releases
+    title|t: Releases
+    slug||slugify: releases
+    releases:
+      $include: en/releases.yml
+      $as-list: true
+      $data: true
+  - name: api
+    title: API
+    slug||slugify: api
+    type: category
+    children:
+    - src|f|exists?: "{target_language}/js_api.md"
+      title: Javascript API
+      name: js-api
+    - src|f|exists?: "{target_language}/rest_api.md"
+      title: REST API
+      name: rest-api

@@ -1,0 +1,101 @@
+hp:
+  description:
+    _t:
+      de: 9e5157facf077abc
+      en: 9e5157facf077abc
+    de: "Klaro ist ein Datenschutz- und Sicherheitstool, das Ihnen\
+      \ hilft, Ihre Websites (und bald auch Apps und IoT-Geräte)\
+      \ sicher und konform zu halten. Es bietet Zustimmungsmanagement,\
+      \ Datenschutz und kontinuierliche Sicherheitsüberprüfung. "
+    en: "Klaro is a privacy & security tool that helps you to\
+      \ keep your websites (and soon apps & IoT devices) secure\
+      \ and compliant. It offers consent management, data protection\
+      \ and continuous security auditing. "
+  getting-started:
+    text:
+      _t:
+        de: 3e7311a46d3ee6a2
+        en: 3e7311a46d3ee6a2
+      de: "Dieser Abschnitt führt Sie durch den Prozess der Einrichtung\
+        \ von Klaro für Ihre Website oder App. Gehen Sie hier\
+        \ zuerst, um anzufangen. "
+      en: "This section guides you through the process of setting\
+        \ up Klaro for your website or app. Go here first to get\
+        \ started. "
+    title:
+      _t:
+        de: d00eca1bae674280
+        en: d00eca1bae674280
+      de: Erste Schritte
+      en: Getting Started
+  javascript-api:
+    text:
+      _t:
+        de: 04b22a86460a4018
+        en: 04b22a86460a4018
+      de: "Dieser Abschnitt beschreibt die clientseitige API von\
+        \ Klaro. Wenn Sie Klaro in Ihr Frontend integrieren möchten,\
+        \ finden Sie hier die notwendigen Informationen. "
+      en: "This section describes Klaro's client-side API. If\
+        \ you want to integrate Klaro with your frontend you will\
+        \ find the necessary information here. "
+    title:
+      _t:
+        de: fc2f37e440bdc44b
+        en: fc2f37e440bdc44b
+      de: Javascript-API
+      en: Javascript API
+  rest-api:
+    text:
+      _t:
+        de: 5763d140a06cdbce
+        en: 5763d140a06cdbce
+      de: "Dieser Abschnitt beschreibt die REST-API von Klaro.\
+        \ Wenn Sie Daten an den Klaro-Backend-Service senden oder\
+        \ programmatisch mit ihm interagieren möchten, finden\
+        \ Sie hier die notwendigen Informationen. "
+      en: "This section describes Klaro's REST API. If you want\
+        \ to send data to the Klaro backend service or interact\
+        \ with it programmatically you will find the necessary\
+        \ information here. "
+    title:
+      _t:
+        de: 41a52587276c392b
+        en: 41a52587276c392b
+      de: REST-API
+      en: REST API
+  site-title:
+    _t:
+      de: c205924de0fe636c
+      en: c205924de0fe636c
+    de: Dokumentation
+    en: Documentation
+  translation-note:
+    _t:
+      de: 8edaa9c4ab254fd2
+      en: 8edaa9c4ab254fd2
+    de: >-
+      Diese Dokumentation wurde automatisch aus der [englischen
+      Version]({url}) übersetzt, wir entschuldigen uns für eventuelle
+      Übersetzungsfehler.
+    en: >-
+      This documentation has been auto-translated from the [English
+      version]({url}), we apologize for any translation errors.
+  welcome:
+    _t:
+      de: dc620fa3fd98d7ae
+      en: dc620fa3fd98d7ae
+    de: "Willkommen bei der Klaro-Dokumentation! Diese Seite enthält\
+      \ Informationen über die Kernkonzepte, Produkte und Lösungen,\
+      \ die wir anbieten. Wenn Sie einen Fehler finden oder einen\
+      \ Vorschlag machen möchten, <a href=\"https://github.com/kiprotect/docs/issues\"\
+      >öffnen Sie</a> bitte entweder <a href=\"https://github.com/kiprotect/docs/issues\"\
+      >ein Problem</a> oder <a href=\"mailto:docs@kiprotect.com\"\
+      >nehmen Sie Kontakt mit uns</a> auf, wir hören gerne von\
+      \ Ihnen! "
+    en: "Welcome to the Klaro documentation! This site contains\
+      \ information about the core concepts, products and solutions\
+      \ that we offer. If you find a mistake or if you want to\
+      \ make a suggestion, please either <a href=\"https://github.com/kiprotect/docs/issues\"\
+      >open an issue</a> or <a href=\"mailto:docs@kiprotect.com\"\
+      >get in touch with us</a>, we love to hear from you! "

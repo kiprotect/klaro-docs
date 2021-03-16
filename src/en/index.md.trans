@@ -1,0 +1,135 @@
+08152e8235713a7b:
+  de: >-
+    Zur Inbetriebnahme empfehlen wir, zunächst das Dokument [Erste
+    Schritte zu]({{'getting-started'|href}}) lesen, das Sie durch
+    den Prozess der Einrichtung von Klaro führt. Dann können Sie
+    einen Blick auf die [kommentierte Beispielkonfiguration]({{'annotated-config'|href}})
+    werfen, um zu erfahren, wie Klaro konfiguriert wird. Schließlich
+    können Sie das [Javascript]({{'js-api'|href}}) lesen, um zu
+    erfahren, wie Sie programmatisch mit Klaro interagieren können.
+  en: >-
+    To get up and running we recommend to first read the <md-link
+    href="PGlnbm9yZSB2PSJlM3NuYTJ4aGNtOHVaMlYwZEdsdVp5MXpkR0Z5ZEdWa0ozeG9jbVZtZlgwPSIgLz4=">Getting
+    Started</md-link> document, which will guide you through the
+    process of setting up Klaro. Then, you can have a look at
+    the <md-link href="e3sna2xhcm8uYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3sna2xhcm8uanMtYXBpJ3xocmVmfX0=">Javascript</md-link>
+    to learn how you can interact with Klaro programatically.
+10eaaf46cf8dae82:
+  de: '    <div class="message-body">'
+  en: '    <div class="message-body">'
+40d4637933fc2383:
+  de: <div class="message is-info">
+  en: <div class="message is-info">
+64951a329191c914:
+  de: >2-
+            Diese Dokumentation beschreibt hauptsächlich die Open-Source-Version
+    von Klaro. Um mit der gehosteten Version zu beginnen, melden
+    Sie sich einfach <a href="https://kiprotect.com/klaro/prices">für
+    ein Paket</a> an und folgen Sie den Anweisungen des Installationsassistenten.
+  en: >2-
+            This documentation mostly describes the open-source
+    version of Klaro. To get started with the hosted version,
+    simply <a href="https://kiprotect.com/klaro/prices">sign up
+    for a plan</a> and follow the instructions given by the installation
+    wizard.
+76cf56124a258327:
+  de: >-
+    Wir führen auch ein detailliertes Protokoll über alle unsere
+    [Veröffentlichungen]({{'releases'|href}}), das Sie einsehen
+    können, um zu sehen, was sich in der jeweiligen Veröffentlichung
+    geändert hat, und um sich über Änderungen, neue Funktionen,
+    Fehlerbehebungen und sicherheitsbezogene Aktualisierungen
+    zu informieren.
+  en: >-
+    We also keep a detailed log of all our <md-link href="PGlnbm9yZSB2PSJlM3NuYTJ4aGNtOHVjbVZzWldGelpYTW5mR2h5WldaOWZRPT0iIC8-">releases</md-link>
+    that you can consult to see what has changed in any release
+    and learn about any breaking changes, new features, bugfixes
+    and security-related updates.
+7dc8d37d8f9fb3c6:
+  de: '    </div>'
+  en: '    </div>'
+91817b0c16fbf160:
+  de: >-
+    Um loszulegen, empfehlen wir Ihnen, zuerst das Dokument [Erste
+    Schritte]({{'getting-started'|href}}) zu lesen, das Sie durch
+    die Einrichtung von Klaro führt. Dann können Sie einen Blick
+    auf die [kommentierte Beispielkonfiguration]({{'annotated-config'|href}})
+    werfen, um zu lernen, wie Sie Klaro konfigurieren. Schließlich
+    können Sie das [Javascript]({{'js-api'|href}}) lesen, um zu
+    erfahren, wie Sie mit Klaro programmatisch interagieren können.
+  en: >-
+    To get up and running we recommend to first read the <md-link
+    href="PGlnbm9yZSB2PSJlM3NuWjJWMGRHbHVaeTF6ZEdGeWRHVmtKM3hvY21WbWZYMD0iIC8-">Getting
+    Started</md-link> document, which will guide you through the
+    process of setting up Klaro. Then, you can have a look at
+    the <md-link href="e3snYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3snanMtYXBpJ3xocmVmfX0=">Javascript</md-link>
+    to learn how you can interact with Klaro programatically.
+9995d1dc65e22447:
+  de: '# Klaro!'
+  en: <md-heading v="#">Klaro!</md-heading>
+a0aacd00302c0041:
+  de: >-
+    Zur Inbetriebnahme empfehlen wir, zunächst das Dokument [Erste
+    Schritte zu]({{'getting-started'|href}}) lesen, das Sie durch
+    den Prozess der Einrichtung von Klaro führt. Dann können Sie
+    einen Blick auf die [Konfigurationsspezifikation]({{'config-spec'|href}})
+    und die [kommentierte Beispielkonfiguration]({{'annotated-config'|href}})
+    werfen, um zu erfahren, wie Klaro konfiguriert wird. Schließlich
+    können Sie die [Javascript-]({{'js-api'|href}}) und [REST-API-Dokumentation]({{'rest-api'|href}})
+    lesen, um zu erfahren, wie Sie programmatisch mit Klaro interagieren
+    können.
+  en: >-
+    To get up and running we recommend to first read the <md-link
+    href="PGlnbm9yZSB2PSJlM3NuYTJ4aGNtOHVaMlYwZEdsdVp5MXpkR0Z5ZEdWa0ozeG9jbVZtZlgwPSIgLz4=">Getting
+    Started</md-link> document, which will guide you through the
+    process of setting up Klaro. Then, you can have a look at
+    the <md-link href="e3sna2xhcm8uY29uZmlnLXNwZWMnfGhyZWZ9fQ==">config
+    specification</md-link> and the <md-link href="e3sna2xhcm8uYW5ub3RhdGVkLWNvbmZpZyd8aHJlZn19">annotated
+    example config</md-link> to learn how to configure Klaro.
+    Finally, you can read the <md-link href="e3sna2xhcm8uanMtYXBpJ3xocmVmfX0=">Javascript</md-link>
+    and <md-link href="e3sna2xhcm8ucmVzdC1hcGknfGhyZWZ9fQ==">REST
+    API</md-link> documentation to learn how you can interact
+    with Klaro programatically.
+a1b08a6b77e087d3:
+  de: >-
+    Klaro ist ein Datenschutz- und Sicherheitstool, das Ihnen
+    hilft, die Zustimmung der Benutzer zu verwalten und sensible
+    und persönliche Daten im Frontend zu schützen.
+  en: >-
+    Klaro is a privacy and security tool that helps you to manage
+    user consent and protects sensitive and personal data in the
+    frontend.
+aac32651b10f567c:
+  de: </div>
+  en: </div>
+e3b0c44298fc1c14:
+  de: ''
+  en: ''
+f7bd88da46248bdd:
+  de: >-
+    Wir führen außerdem ein detailliertes Protokoll aller unserer
+    [Versionen]({{'releases'|href}}), in dem Sie nachsehen können,
+    was sich in jeder Version geändert hat, und in dem Sie sich
+    über alle wichtigen Änderungen, neuen Funktionen, Bugfixes
+    und sicherheitsrelevanten Updates informieren können.
+  en: >-
+    We also keep a detailed log of all our <md-link href="PGlnbm9yZSB2PSJlM3NuY21Wc1pXRnpaWE1uZkdoeVpXWjlmUT09IiAvPg==">releases</md-link>
+    that you can consult to see what has changed in any release
+    and learn about any breaking changes, new features, bugfixes
+    and security-related updates.
+ffb18b78442816e9:
+  de: >2-
+            Diese Dokumentation beschreibt hauptsächlich die Open-Source-Version
+    von Klaro. Um mit der gehosteten Version zu beginnen, melden
+    Sie sich einfach <a href="{% if lang == 'de' %}https://kiprotect.com/de/klaro/preise{%else%}https://kiprotect.com/klaro/prices{%endif%}">für
+    ein Paket</a> an und folgen Sie den Anweisungen des Installationsassistenten.
+  en: >2-
+            This documentation mostly describes the open-source
+    version of Klaro. To get started with the hosted version,
+    simply <a href="{% if lang == 'de' %}https://kiprotect.com/de/klaro/preise{%else%}https://kiprotect.com/klaro/prices{%endif%}">sign
+    up for a plan</a> and follow the instructions given by the
+    installation wizard.

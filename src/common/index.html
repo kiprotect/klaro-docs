@@ -1,0 +1,65 @@
+{% extends("base.html") %}
+{% block main %}
+
+<section class="section">
+    <h1 class="title">
+        {{'hp.site-title'|translate}}
+    </h1>
+    <div class="content">
+        <p>
+            {{'hp.welcome'|translate}}
+        </p>
+    </div>
+    <div class="columns features">
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-header">
+                    <div class="card-header-title has-text-centered">
+                        <strong><a href="{{'getting-started'|href}}">{{'hp.getting-started.title'|translate}}</a></strong>
+                    </div>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <p>
+                        {{'hp.getting-started.text'|translate}}
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-header">
+                    <div class="card-header-title has-text-centered">
+                        <strong><a href="{{'js-api'|href}}">{{'hp.javascript-api.title'|translate}}</a></strong>
+                    </div>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <p>
+                        {{'hp.javascript-api.text'|translate}}
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="card is-shady">
+                <div class="card-header">
+                    <div class="card-header-title has-text-centered">
+                        <strong><a href="{{'rest-api'|href}}">{{'hp.rest-api.title'|translate}}</a></strong>
+                    </div>
+                </div>
+                <div class="card-content">
+                <div class="content">
+                    <p>
+                        {{'hp.rest-api.text'|translate}}
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{%endblock%}
